@@ -1,0 +1,111 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/ea/a6/98/eaa698b63df39e7c9cad20ba9b35d0c8.jpg");
+    margin: 0;
+}  
+header{
+    background-color: #142542;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+h2{
+    margin-bottom: 60px;
+}
+article{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 100px 40px 75px 10px;
+    text-align: center;
+    
+    background: transparent;
+
+}
+form{
+    border: 1px solid rgba(255, 255, 255, 0.521);
+    border-radius: 25px;
+    width: 350px;
+    height: 400px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+
+}
+input{
+    margin: 4px;
+    width: 270px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ffffffbb;
+    background: transparent;
+    transition: background 0.5s, color 0.5s;
+}
+input:focus {
+    background-color: #db3434;
+    color: white;
+   
+}
+
+input[type=submit]{
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    background-color: #0D182B;
+    margin-top: 10px;
+    padding: 4px;
+    transition: background-color 0.5s;
+}
+input[type=submit]:hover{
+    background-color: cadetblue;
+}
+
+#caixa-input{
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    
+}
+#caixa-equipe, #caixa-adm{
+    background-color: #142542;
+    box-shadow: 10px 20px #0D182B,
+                15px 30px #6d3600;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 25px 65px 25px 65px;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    display: grid;
+    margin: 40px 430px 40px 0px;
+    animation: flutuar 3s ease-in-out infinite;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+#caixa-equipe:hover{
+    background: #FDB400
+
+}
+#caixa-adm:hover{
+    background: #FDB400
+
+}
+
+
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+
+
