@@ -18,3 +18,4 @@ function hideTooltip(element) {
     var tooltip = element.querySelector('.tooltiptext');
     tooltip.style.display = 'none';
 }
+

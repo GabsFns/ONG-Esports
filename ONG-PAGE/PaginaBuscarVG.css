@@ -247,3 +247,39 @@ hr {
 .card_text p:last-child {
   margin: 0;
 }
+footer{
+  background-color: #142542;
+  width: 70%;
+}
+#transparencia-footer{
+  display: flex;
+  background: transparent;
+  backdrop-filter: blur(15px);
+  color: white;
+  width: 30%;
+}
+.ligacao{
+  display: flex;
+}
+.ligacao2{
+  display: flex;
+  justify-content: space-around;
+}
+#centralizar-footertp{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+#ajuste-footer, #ajuste2-footer{
+  
+  color: rgba(225, 241, 255, 0.884);
+  font-size: small;
+  width: 330px;
+  height: 120px;
+}
+h3{
+  text-align: left;
+}
+p{
+  text-align: justify;
+}
