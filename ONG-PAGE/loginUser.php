@@ -9,13 +9,13 @@
 <body>
     <main>
         <article class="Caixa-login">
-            <form action="configUser.php" method="post">
+            <form action="configUser.php" method="POST">
         
             <h2>LOGIN INCLUSION</h2>
                 <label for="Email"></label>
                 <input type="text" id="Email" name="Email" placeholder="Email" required>
                 <label for="senha"></label>
-                <input type="text" id="senha" name="senha" placeholder="Senha" required>
+                <input type="password" id="senha" name="senha" placeholder="Senha" required>
                 <div id="centralizacao">
                 <input type="submit">
                 <a id="senharenov" href="">Esqueceu a senha?</a>

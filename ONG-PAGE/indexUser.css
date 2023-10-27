@@ -1,0 +1,199 @@
+body{
+    height: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/originals/ea/a6/98/eaa698b63df39e7c9cad20ba9b35d0c8.jpg");
+    background-attachment: fixed;
+}
+header{
+    background-color: #142542;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+#cabecalho{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    margin-left: 24px;
+    
+}
+a{
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+.centralizacao{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+#img-perfil{
+  margin: 0px 40px 0px 20px;
+  filter: invert(1);
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  height: 60px;
+}
+#img-perfil:hover{
+  filter: brightness(1);
+  border-bottom: 1px solid #2d4670;
+}
+
+
+a,h3{
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-right: 28px;
+    margin-top: 25px;
+}
+a:hover{
+    color: #f0ec29;
+    border-bottom: 2px solid #2d4670;
+}
+h3:hover{
+  color: #f0ec29;
+  border-bottom: 2px solid #2d4670;
+}
+#Inclusion{
+    transition: all 0.3s;
+}
+#Inclusion:hover{
+    transform: scale(1.1);
+    letter-spacing: 4px;
+}
+
+.Nav-equipe{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    width: 300px;
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    
+    margin: 35px 70px
+}
+#titulo{
+    color: white;
+    font-size: 28px;
+    margin: 40px 0px 10px 75px;
+}
+#caixa-descricao{
+    box-sizing: border-box;
+    width: 670px;
+    font-size: 18px;
+    margin: 10px 0px 10px 75px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #142542;
+    width: 70%;
+}
+#transparencia-footer{
+    display: flex;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    color: white;
+    width: 30%;
+}
+
+.ligacao{
+    display: flex;
+    margin-top: 10%;
+    
+}
+.ligacao2{
+    display: flex;
+    justify-content: space-around;
+}
+#centralizar-footertp{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+#ajuste-footer, #ajuste2-footer{
+    
+    color: rgba(225, 241, 255, 0.884);
+    font-size: small;
+    width: 330px;
+    height: 120px;
+}
+h3{
+    text-align: left;
+}
+p{
+    text-align: justify;
+}
+#corlor-text-header{
+    color: white;
+    text-decoration: none;
+    border: none;
+    text-decoration: none;
+}
+#corlor-text-header:hover{
+    color: #f0ec29;
+    border-bottom: 2px solid #2d4670;
+    text-decoration: none;
+}  
+.color-caixa-text{
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+@media screen and (max-width: 1120px){
+    #caixa-nav,#caixa-equipe, #caixa-adm{
+        background: transparent;
+        backdrop-filter: blur(15px);
+        border: 1px solid rgba(255, 255, 255, 0.589);
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        width: 300px;
+        height: 80px;
+        display: grid;
+        margin: 40px 200px 40px 270px;
+        
+        transition: all 0.3s ease;
+    
+    }
+    article{
+        color: white;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin: 75px 390px 75px 10px;
+        text-align: center;
+        background: transparent;
+        
+    
+    }
+    form{
+        border: 1px solid rgba(255, 255, 255, 0.521);
+        border-radius: 25px;
+        width: 600px;
+        height: 400px;
+        
+        margin-top: 165px;
+        background: transparent;
+        backdrop-filter: blur(15px);
+       
+    
+    }
+
+}

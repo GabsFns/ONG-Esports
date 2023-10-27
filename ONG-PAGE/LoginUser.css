@@ -27,7 +27,7 @@ input{
     padding: 16px;
     outline: none;
     border: none;
-    transition: all 0.3s ease-in
+    transition: all 0.2s ease-in
 
 }
 input:focus{
