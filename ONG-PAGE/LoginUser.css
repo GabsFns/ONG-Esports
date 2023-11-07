@@ -1,13 +1,13 @@
 body{
     margin: 0;
-    background-image: url(https://wallpaper4k.com.br/wp-content/uploads/2022/10/wallpapers-azul-em-4k-52.jpg);
+    background-image: url("https://conteudo.imguol.com.br/c/esporte/a2/2021/09/05/markus-rehm-da-alemanha-mais-um-ouro-no-salto-em-distancia-paralimpico-1630841073052_v2_4x3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .Caixa-login{
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.158);
+    border: 1px solid rgba(255, 255, 255, 0.247);
     margin: auto;
     width: 300px;
     height: 290px;
@@ -18,8 +18,8 @@ body{
     backdrop-filter: blur(10px);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: 5px 5px rgba(109, 154, 252, 0.315),
-                10px 10px rgba(18, 33, 66, 0.877);
+    box-shadow: 5px 5px rgba(196, 215, 255, 0.329),
+                10px 10px rgba(53, 60, 73, 0.877);
 }
 input{
     margin: 16px;
@@ -31,12 +31,12 @@ input{
 
 }
 input:focus{
-  background-color: rgb(159, 220, 255);
+  background-color: rgb(199, 209, 255);
   
-  border-bottom: 2px solid rgb(0, 0, 168);
+  border-bottom: 2px solid rgb(228, 228, 228);
   
-  box-shadow: 2px 2px rgb(127, 229, 255),
-  4px 4px rgb(117, 107, 255);
+  box-shadow: 2px 2px rgb(144, 188, 245),
+  4px 4px rgb(58, 53, 133);
 }
 :focus::placeholder{
     color: rgb(255, 255, 255);
@@ -51,8 +51,8 @@ input[type=submit]{
     border: none;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 2px 2px rgb(127, 229, 255),
-                4px 4px rgb(90, 80, 241);
+    box-shadow: 2px 2px rgb(219, 247, 255),
+                4px 4px rgb(179, 239, 243);
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
@@ -65,7 +65,7 @@ input[type=submit]:hover{
 }
 
 #senharenov{
-    color: rgb(134, 134, 255);
+    color: rgb(255, 243, 134);
     font-size: 12px;
     margin: 20px;
     margin-right: 22px;

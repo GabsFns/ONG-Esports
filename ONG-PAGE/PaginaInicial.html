@@ -5,47 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="PaginaInicial.css">
-    <link rel="icon" href="https://img.freepik.com/vetores-premium/um-quadrado-azul-com-um-icone-de-globo_876006-15.jpg" type="image/png">
+    <link rel="icon" href="https://img.freepik.com/vetores-premium/um-quadrado-azul-com-um-icone-de-globo_876006-15.jpg"
+        type="image/png">
     <script src="Animações.js"></script>
     <title>Inclusion | Portal Esportivo</title>
 </head>
 
 <body>
     <header>
-    <a href="loginUser.php">
-        <Button id="entrar-log" >
-            <h2> ENTRAR &#10150;</h2>
-        </Button>
-    </a>
         <nav id="cabecalho">
-            
+            <div class="dropdown">
+                <button class="dropbtn">Entrar</button>
+                <div class="dropdown-content">
+                    <a href="loginUser.html"><span>&#8640;</span> Login</a>
+                    
+                   
+                </div>
+            </div>
             <h1 id="Inclusion">&#8656 INCLUSION &#8658</h1>
-           
-            
-                
-            
         </nav>
-       
-       
-        
     </header>
     <main>
         <article>
-            
-            <form action="" method="POST">
+
+            <form action="cadastroUser.php" method="POST">
                 <h2>Venha-se Cadastrar</h2>
 
                 <div id="caixa-input">
                     <label for="Email"></label>
                     <input type="text" name="Email" id="Email" placeholder="Email" class="form__field" required>
                     <label for="senha"></label>
-                    <input type="password" name="senha" id="senha" placeholder="Senha" required title="No minimo 8 digitos">
+                    <input type="password" name="Senha" id="Senha" placeholder="Senha" required
+                        title="No minimo 8 digitos">
                     <label for="Nome"></label>
-                    <input type="text" name="Email" id="Email" class="form__field" placeholder="Nome" required>
+                    <input type="text" name="Nome" id="Nome" class="form__field" placeholder="Nome" required>
                     <label for="Sobrenome"></label>
-                    <input type="text" name="Email" id="Email" class="form__field" placeholder="Sobrenome" required>
-                
-                   
+                    <input type="text" name="Sobrenome" id="Sobrenome" class="form__field" placeholder="Sobrenome"
+                        required>
+
+
                     <label for="CPF"></label>
                     <input type="number" name="CPF" id="CPF" placeholder="CPF" required>
                     <label for="Telefone"></label>
@@ -54,37 +52,39 @@
                     <input type="text" name="pais" id="pais" placeholder="Pais" required>
                     <label for="cidade"></label>
                     <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
-                   
-                   
+
+
                     <div class="text-area">
-                    <label id="label-text" for="sobre-voce">Fale um pouco sobre você:</label>
-                    <textarea id="sobre-voce" name="sobre-voce" rows="8" cols="50"></textarea>
+                        <label id="label-text" for="sobre-voce">Fale um pouco sobre você:</label>
+                        <textarea id="sobre-voce" name="sobre-voce" rows="8" cols="50"></textarea>
+                    </div>
                 </div>
-                </div>
-                
+
                 <input type="submit" value="submit">
             </form>
-         
-     
+
+
             <section>
                 <aside>
-                    <h2 id="tamanho-title"><span class="fancy">Inclusion: O Seu Portal Para Equipes Esportivas Inclusivas</span></h2>
+                    <h2 id="tamanho-title"><span class="fancy">Inclusion: O Seu Portal Para Equipes Esportivas
+                            Inclusivas</span></h2>
                     <p>Descubra uma <strong>nova era no mundo do esporte com o Inclusport.</strong> Seja você um
                         talento em busca de uma <strong>equipe ou uma equipe em busca de talentos</strong>,
                         nosso portal facilita a conexão. Nosso compromisso com a inclusão é garantido
                         por uma administração dedicada da nossa ONG.<strong> Junte-se à comunidade Inclusport
-                        e faça parte dessa revolução esportiva hoje.</strong></p>
-                    </aside>
-             
+                            e faça parte dessa revolução esportiva hoje.</strong></p>
+                </aside>
+
                 <nav>
                     <div id="caixa-equipe">
-                        <a class="color-caixa-text" href="CadastroEquipe.html">
-                        <h2>Venha Cadastrar sua Equipe!</h2></a>
+                        <a class="color-caixa-text" href="CadastroEquipe.php">
+                            <h2>Venha Cadastrar sua Equipe!</h2>
+                        </a>
                     </div>
                     <div id="caixa-nav">
                         <a class="color-caixa-text" href="PaginaBuscarVG.html">
-                        <h2>Encontrar Equipes</h2>
-                    </a>
+                            <h2>Encontrar Equipes</h2>
+                        </a>
                     </div>
                     <div id="caixa-adm">
                         <h2>Area Funcionário</h2>
@@ -97,17 +97,17 @@
                 <div id="ajuste-footer">
                     <h3>Uma Comunidade Unida:</h3>
                     <p>O "Equipes Esportivas Inclusivas" não é apenas um site;
-                     é uma comunidade de indivíduos apaixonados por esportes,
-                      unidos pela crença de que o esporte é para todos. Juntos,
-                       estamos construindo pontes, quebrando estereótipos e celebrando o potencial humano.</p>
+                        é uma comunidade de indivíduos apaixonados por esportes,
+                        unidos pela crença de que o esporte é para todos. Juntos,
+                        estamos construindo pontes, quebrando estereótipos e celebrando o potencial humano.</p>
                 </div>
                 <div id="ajuste2-footer">
                     <h3>Administração Conduzida pela Nossa ONG:</h3>
                     <p>Para garantir um processo de seleção justo e transparente,
-                         a administração das equipes e a convocação dos candidatos
-                          são conduzidas por nossa ONG dedicada à promoção da inclusão
-                           no esporte. Com anos de experiência e uma equipe dedicada,
-                            estamos comprometidos em criar um ambiente onde todos têm a oportunidade de brilhar.</p>
+                        a administração das equipes e a convocação dos candidatos
+                        são conduzidas por nossa ONG dedicada à promoção da inclusão
+                        no esporte. Com anos de experiência e uma equipe dedicada,
+                        estamos comprometidos em criar um ambiente onde todos têm a oportunidade de brilhar.</p>
                 </div>
 
             </footer>
@@ -124,4 +124,5 @@
         </div>
     </main>
 </body>
+
 </html>

@@ -1,3 +1,8 @@
+<!-- <?php 
+require "Verifica.php";
+if(isset($_SESSION["idUser"])&& !empty($_SESSION["idUser"])):;
+?> -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,18 +21,18 @@
                 <h1 id="Inclusion">&#8656 INCLUSION &#8658</h1>
                 <div class="centralizacao">
 
-                    <h3><a href="indexUser.php">Home</a></h3>
+                    <h3><a href="indexUser.html">Home</a></h3>
                     <h3><a href="">Termos</a></h3>
-                    <h3><a href="">Vagas</a></h3>
-
+                    <h3><a href="ConferirVaga.html">Vagas</a></h3>
+                    <a id="perfil-direcao" href="PerfilUser.html">
                     <img id="img-perfil" src="https://cdn.icon-icons.com/icons2/2442/PNG/512/customer_service_user_icon_148631.png" alt="" width="70px
-            ">
+            ">  </a>
                 </div>
             </nav>
         </header>
         <article>
             <aside>
-                <h1 id="titulo">SEJA BEM VINDO<?php $nome ?>!</h1>
+                <h1 id="titulo">Seja Muito Bem vindo <!-- <?php echo $NomeUser . " " . $SobrenomeUser ?>! --> </h1>
                 <div id="caixa-descricao">
                 <p>Bem-vindo ao site da ONG de <strong>Fórmula 1 Inclusiva</strong>,
                     o seu portal para um mundo emocionante onde a
@@ -37,17 +42,20 @@
                     a diversidade</strong> no emocionante mundo da Fórmula 1.</p>
                     </div>
             </aside>
-
+            <div class="centralizacao-caixa">
+            <a href="PaginaBuscarVG.html">
             <div class="Nav-equipe">
-
-                <h2>Encontrar Equipes</h2>
+                 <h2>Encontrar Equipes</h2>
+            </a>
 
             </div>
-            <div class="Nav-equipe">
-
+            <a href="ConferirVaga.html">
+            <div class="Nav-equipe2">
+                
                 <h2>Conferir Vaga</h2>
-
+            </a>
             </div>
+        </div>
         </article>
 
 
@@ -86,3 +94,7 @@
 </main>
 
 </html>
+<!-- <?php 
+else: header("Location: PaginaInicial.html"); 
+endif;
+?> -->

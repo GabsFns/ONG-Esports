@@ -9,7 +9,7 @@ session_start();
 
  try{
     // <-- USANDO METODO MYSQLI -->
- // $conecta = mysqli_connect($localhost, $user, $passw, $banco);
+ //$conecta = mysqli_connect($localhost, $user, $passw, $banco);
  //$sql = mysqli_query($conecta, "SELECT * FROM usuarios");
 
    // <-- USANDO METODO PDO -->

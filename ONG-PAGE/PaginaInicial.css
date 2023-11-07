@@ -1,8 +1,9 @@
 body{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://i.pinimg.com/originals/ea/a6/98/eaa698b63df39e7c9cad20ba9b35d0c8.jpg");
+    background-image: url("https://conteudo.imguol.com.br/c/esporte/a2/2021/09/05/markus-rehm-da-alemanha-mais-um-ouro-no-salto-em-distancia-paralimpico-1630841073052_v2_4x3.jpg");
     margin: 0;
+    font-family: 'Poppins';
 }  
 header{
     background-color: #142542;
@@ -12,12 +13,61 @@ header{
 }
 #cabecalho{
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     border: none;
     
     
     
 }
+.dropbtn {
+    background-color: #324686;
+    color: white;
+    padding: 14px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 12px 30px 0px 0px ;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #e7ebf3}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #324686;
+  }
 h3{
     transition: all 0.5s;
     cursor: pointer;
@@ -33,6 +83,7 @@ h3:hover{
     transform: scale(1.1);
     letter-spacing: 4px
 }
+
 
 article{
     color: white;
@@ -90,13 +141,14 @@ aside{
     width: 770px;
     height: 150px;
     margin-left: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
 }
 #tamanho-title{
     border: none;
     font-size: 29px;
     text-shadow: 1px 2px #a500004d,
                  4px 4px #142542;
+    
                
                 
   }
@@ -248,7 +300,7 @@ label{
 
 #caixa-adm:hover {
     transform: translateX(50px); /* Mova a caixa para a direita */
-    background-color: #f0ec29; /* Mude a cor de fundo */
+    background-color: #7aceffd7; /* Mude a cor de fundo */
 }
 #caixa-nav:hover{
     transform: translateX(50px); /* Mova a caixa para a direita */
@@ -256,7 +308,7 @@ label{
 }
 #caixa-equipe:hover{
     transform: translateX(50px); /* Mova a caixa para a direita */
-    background-color: #e01c1c;
+    background-color: #7aceffe8;
 }
 
 
@@ -273,6 +325,10 @@ label{
 footer{
     background-color: #142542;
     width: 70%;
+    height: 100%;
+}
+#caixa-nav,#caixa-equipe, #caixa-adm{
+    font-family: Lato;
 }
 #transparencia-footer{
     display: flex;
@@ -280,25 +336,30 @@ footer{
     backdrop-filter: blur(15px);
     color: white;
     width: 30%;
+    height: 100%;
 }
 .ligacao{
     display: flex;
+    height: 100%;
 }
 .ligacao2{
     display: flex;
     justify-content: space-around;
+    
 }
 #centralizar-footertp{
     display: flex;
     flex-direction: column;
     margin-right: 25px;
+    height: 100%;
 }
 #ajuste-footer, #ajuste2-footer{
     
     color: rgba(225, 241, 255, 0.884);
     font-size: small;
     width: 330px;
-    height: 120px;
+    height: 100%;
+
 }
 h3{
     text-align: left;

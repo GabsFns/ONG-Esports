@@ -9,7 +9,7 @@ class Usuario{
         //acesso a tabela usuarios
         $sql = $pdo->prepare($sql);
         $sql->bindValue("Email", $Email);
-        $sql->bindValue("senha", md5($senha));
+        $sql->bindValue("senha", $senha);
         $sql->execute();
        
         if($sql->rowCount() > 0){
@@ -28,6 +28,28 @@ class Usuario{
         }
     }
 
+    public function logged($id){
+        global $pdo;
+
+        $array = array();
+
+        $id = $_SESSION['idUser'];
+
+
+        $sql = "SELECT Nome, Sobrenome FROM usuarios WHERE id = :id";
+        $sql = $pdo->prepare($sql);
+        $sql->bindParam("id", $id);
+        $sql->execute();
+
+        if($sql->rowCount() > 0){
+            $array = $sql->fetch();
+        }
+        return $array;
+
+
+    }
+
+    
 }
 
 

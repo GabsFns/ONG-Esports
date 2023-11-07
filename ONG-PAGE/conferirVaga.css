@@ -4,19 +4,11 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-}   
-#caixa-edicao{
-    box-sizing: border-box;
-    border: 1px solid black;
-    padding: 8px;
-    background-color: rgba(255, 255, 255, 0.822);
-    border-radius: 8px;
-    
 }
-#caixa-vaga{
+.caixa-vaga{
     box-sizing: border-box;
-    border: 1px solid black;
     
+  
     height: 275px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.822);
@@ -24,85 +16,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 200px 70px 35px;
 }
-
-#caixa-vaga, #caixa-edicao{
-    margin: 15px 50px;
-}
-#editar-btt{
-    width: 60px;
-    padding: 2px;
-    color: white;
-    
-}
-header{
-    background-color: #142542;
-    
-    padding: 1px;
-    text-align: center;
-}
-#cabecalho{
-    display: flex;
-    justify-content: space-between;
-    border: none;
-    margin-left: 24px;
-    
-}
-a{
-  color: white;
-  text-decoration: none;
-  border: none;
-}
-.centralizacao-header{
-  display: flex;
-  justify-content: space-evenly;
-  
-}
-#img-perfil{
-  margin: 0px 40px 0px 20px;
-  filter: invert(1);
-  cursor: pointer;
-  transition: all 0.5s ease-in;
-  height: 60px;
-}
-#img-perfil:hover{
-  filter: brightness(1);
-  border-bottom: 1px solid #2d4670;
-}
-
-
-a, .ref-pag{
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-right: 28px;
-    margin-top: 25px;
-}
-a:hover{
-    color: #f0ec29;
-    border-bottom: 2px solid #2d4670;
-}
-h3:hover{
-  color: #f0ec29;
-  border-bottom: 2px solid #2d4670;
-}
-#Inclusion{
-    transition: all 0.3s;
-}
-#Inclusion:hover{
-    transform: scale(1.1);
-    letter-spacing: 4px;
-}
-
 button{
     background-color:#16305e;
     outline: none;
     border: none;
     padding: 8px;
     width: 100px;
-    height: 45px;
     box-shadow: 1px 1px rgba(38, 38, 95, 0.801),
                 2px 2px rgb(45, 45, 146);
-    margin: 6px 6px 20px 6px;
+    margin: 20px;
     color: white;
     border-radius: 8px;
     transition: 0.2s all ease-in;
@@ -115,37 +40,8 @@ button:hover{
 }
 .botoes{
     display: flex;
-    margin: 20px 6px 95px 6px;
-}
-.centralizacao{
-    display: flex;
-    align-items: center;
-    margin: 25px 50px;
-    border: 1px solid black;
-    background-color: rgba(255, 255, 255, 0.830);
-    padding: 8px;
-}
-.inform{
-    margin: 25px 0px 0px 0px;
-
-    
-
-}
-.caixa-nome{
-    
-    padding: 6px;
-    
-}
-#Email{
-    margin-left: 42px;
-}
-#name-perfil, .caixa-nome{
-    
-    margin: 0px 40px;
-    display: flex;
-    flex-direction: column;
-     
-    
+    justify-content: center;
+    margin: 15px 6px 95px 6px;
 }
 #vaga-andamento, #vaga-aceita, #vaga-recusada{
     box-sizing: border-box;
@@ -153,7 +49,17 @@ button:hover{
     width: 600px;
     padding: 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+#vaga-andamento:hover{
+    transform: scale(1.05);
+}
+#vaga-aceita:hover{
+    transform: scale(1.05);
+}
+#vaga-recusada:hover{
+    transform: scale(1.05);
 }
 #vaga-andamento{
     background-color: rgb(255, 255, 255);
@@ -175,17 +81,12 @@ button:hover{
     
     
 }
-
-hr{
-    border: 1.2px solid rgb(54, 54, 153);
-   
-}
 h1{
     
     color: white;
     border-radius: 20px 60px ;
-    margin: 20px;
-    width: 280px;
+    margin: 20px 0px;
+    width: 255px;
     height: 30px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -241,9 +142,8 @@ h3{
 .text-footer{
     text-align: justify;
 }
-.perfil-direcao{
+a{
     text-decoration: none;
-    color: white;
-    border: none;
     
+    color: white;
 }
